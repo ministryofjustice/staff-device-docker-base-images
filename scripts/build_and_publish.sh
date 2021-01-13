@@ -10,4 +10,5 @@ for image_name in * ; do
   repository_url=${SHARED_SERVICES_ACCOUNT_ID}.dkr.ecr.eu-west-2.amazonaws.com/$image_name
   aws ecr get-login-password | docker login --username AWS --password-stdin ${repository_url}
   docker push ${repository_url}:$tag  
+  docker push ${repository_url}:latest
 done
