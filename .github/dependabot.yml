@@ -6,6 +6,61 @@
 version: 2
 updates:
   - package-ecosystem: "docker"
-    directory: "/images"
+    directory: "/images/admin"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/admin-mysql"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/blackbox-exporter"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/dhcp"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/dhcp-mysql"
+    schedule:
+      interval: "daily"
+  
+  - package-ecosystem: "docker"
+    directory: "/images/dns"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/nginx"
+    schedule:
+      interval: "daily"
+      
+  - package-ecosystem: "docker"
+    directory: "/images/prometheus"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/selenium-hub"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/selenium-node-chrome"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/snmp-exporter"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/thanos"
     schedule:
       interval: "daily"
