@@ -64,3 +64,13 @@ updates:
     directory: "/images/thanos"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/grafana"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/images/grafana-image-renderer"
+    schedule:
+      interval: "daily"
