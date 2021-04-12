@@ -1,0 +1,1 @@
+FROM prom/cloudwatch-exporter:cloudwatch_exporter-0.10.0
