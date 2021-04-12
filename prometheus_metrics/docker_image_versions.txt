@@ -2,6 +2,7 @@
 docker_image_versions{imageName="mysql",imageVersion="5.7"} 1
 docker_image_versions{imageName="ruby",imageVersion="2.7.1-alpine3.12"} 1
 docker_image_versions{imageName="prom/blackbox-exporter",imageVersion="v0.17.0"} 1
+docker_image_versions{imageName="prom/cloudwatch-exporter",imageVersion="cloudwatch_exporter-0.10.0"} 1
 docker_image_versions{imageName="mysql",imageVersion="5.7"} 1
 docker_image_versions{imageName="ruby",imageVersion="2.7.2-alpine3.11"} 1
 docker_image_versions{imageName="ruby",imageVersion="2.7.2-alpine3.12"} 1
