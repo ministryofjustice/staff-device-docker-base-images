@@ -1,1 +1,1 @@
-FROM prom/cloudwatch-exporter:cloudwatch_exporter-0.10.0
+FROM quay.io/invisionag/yet-another-cloudwatch-exporter:v0.26.3-alpha
