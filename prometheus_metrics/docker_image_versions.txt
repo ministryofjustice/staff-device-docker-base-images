@@ -9,6 +9,7 @@ docker_image_versions{imageName="ruby",imageVersion="2.7.2-alpine3.11"} 1
 docker_image_versions{imageName="ruby",imageVersion="2.7.2-alpine3.12"} 1
 docker_image_versions{imageName="grafana/grafana-image-renderer",imageVersion="2.0.1"} 1
 docker_image_versions{imageName="grafana/grafana",imageVersion="7.2.2"} 1
+docker_image_versions{imageName="alpine",imageVersion="3.13.0"} 1
 docker_image_versions{imageName="nginx",imageVersion="1.19.8-alpine"} 1
 docker_image_versions{imageName="prom/prometheus",imageVersion="v2.21.0"} 1
 docker_image_versions{imageName="selenium/hub",imageVersion="3.14.0-gallium"} 1
