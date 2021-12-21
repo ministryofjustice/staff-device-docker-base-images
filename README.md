@@ -18,5 +18,5 @@ To run this repo you will need:
 2. Open the image `Dockerfile` within the `images` folder that you would like to update e.g. `images\grafana\Dockerfile` 
 3. Change image version to desired e.g. `FROM grafana/grafana:8.3.3` to `FROM grafana/grafana:8.3.4`
 4. Create a Pull Request wait for review, merge and then switch back to main.
-5. Run: `aws-vault exec moj-pttp-shared-services -- make build-and-publish` which will pull down all images and push back up them all back into ECR
-6. If you want you the new image to be picked up from e.g. Elastic Container service you will need to redeploy the service by selecting the Update button and leaving all the defaults and selecting `Force New Deployment` which will recreate all the running containers with the new image.  
+5. Run: `aws-vault exec moj-pttp-shared-services -- make build-and-publish` this pulls down all images and then pushes them into ECR
+6. The running container will not update until container services are redeployed. For Elastic Container Service, go to the service, select the `Update` button and leave all defaults except tick the box by `Force New Deployment` this will recreate all the running containers with the new image.  
