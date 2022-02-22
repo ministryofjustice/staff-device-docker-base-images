@@ -1,1 +1,1 @@
-FROM ruby:2.7.2-alpine3.11
+FROM ruby:3.0.3-alpine3.15
