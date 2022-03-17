@@ -8,4 +8,7 @@ check-container-registry-account-id:
 build-and-publish: check-container-registry-account-id
 	./scripts/build_and_publish.sh
 
+publish-specific: check-container-registry-account-id
+	./scripts/build_and_publish_individual_image.sh $(IMAGE)
+
 .PHONY: build-and-publish check-container-registry-account-id
