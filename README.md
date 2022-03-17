@@ -22,4 +22,5 @@ To run this repo you will need:
 3. Change image version to desired e.g. `FROM grafana/grafana:8.3.3` to `FROM grafana/grafana:8.3.4`
 4. Create a Pull Request wait for review, merge and then switch back to main.
 5. Run: `make build-and-publish` this pulls down all images and then pushes them into ECR.
-6. The running container will not update until container services are redeployed. For Elastic Container Service, go to the service, select the `Update` button and leave all defaults except tick the box by `Force New Deployment` this will recreate all the running containers with the new image.  
+6. To publish a single image to ECR you can run ` make publish-specific IMAGE="<<image-name>>"` NOTE : `<<image-name>>` must match the folder name where the Dockerfile is stored.
+7. The running container will not update until container services are redeployed. For Elastic Container Service, go to the service, select the `Update` button and leave all defaults except tick the box by `Force New Deployment` this will recreate all the running containers with the new image.  
