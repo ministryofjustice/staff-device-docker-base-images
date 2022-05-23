@@ -1,3 +1,4 @@
+**Repository is now archived**
 ⚠️ Images are now pulled from DockerHub as per this github [issue](https://github.com/ministryofjustice/cloud-operations/issues/96)
 
 # Staff Device Docker Base Image  
