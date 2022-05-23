@@ -1,3 +1,5 @@
+⚠️ Images are now pulled from DockerHub as per this github [issue](https://github.com/ministryofjustice/cloud-operations/issues/96)
+
 # Staff Device Docker Base Image  
 
 Repo for base images used across multiple services. Created as the solution to dockerhub rate limts as suggested by [AWS](https://aws.amazon.com/blogs/containers/advice-for-customers-dealing-with-docker-hub-rate-limits-and-a-coming-soon-announcement/).
