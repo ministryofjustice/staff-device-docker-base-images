@@ -1,1 +1,1 @@
-FROM quay.io/thanos/thanos:v0.15.0
+FROM quay.io/thanos/thanos:v0.28.1
