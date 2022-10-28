@@ -1,1 +1,1 @@
-FROM prom/snmp-exporter:v0.19.0
+FROM prom/snmp-exporter:v0.20.0
